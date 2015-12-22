@@ -1,0 +1,31 @@
+
+### `r paste("Resultat economique du scenario:",input$scena1)`
+
+```{r plot1 , fig.height=6,fig.width=10,echo=FALSE}
+     p<-capelist()
+     w<-which(p[[2]]$projid==input$scena1)
+    recaprod<-calprod(p,w)
+    recachop<-calchop(p,w)
+    recafix<-calfix(p,w)
+    recapres<-calcures(p,w)
+    r<-rbind(recaprod,recachop,recafix,recapres)
+    r<-r[,1]
+     reseco(pblait=r[2],pbviabl=r[4],pbviabv=r[5],pbcul=r[6],aides=r[9],otreprod=r[13],
+         chopani=r[15],chopsurf=r[25],chstruc=r[31],annu=r[52],msa=r[46])
+```
+
+### `r paste("Resultat economique du scenario:",input$scena2)`
+
+```{r plot2 , fig.height=6,fig.width=10,echo=FALSE}
+     p<-capelist()
+      w<-which(p[[2]]$projid==input$scena2)
+   
+    recaprod<-calprod(p,w)
+    recachop<-calchop(p,w)
+    recafix<-calfix(p,w)
+    recapres<-calcures(p,w)
+    r<-rbind(recaprod,recachop,recafix,recapres)
+    r<-r[,1]
+     reseco(pblait=r[2],pbviabl=r[4],pbviabv=r[5],pbcul=r[6],aides=r[9],otreprod=r[13],
+         chopani=r[15],chopsurf=r[25],chstruc=r[31],annu=r[52],msa=r[46])
+```

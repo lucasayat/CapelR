@@ -1,0 +1,290 @@
+#contain{position:absolute;top:0px;left:10px}
+#alert{background:lightgray;width:400px;padding:10px;margin:100px;border-radius:10px;opacity:0.8}
+#OK{padding:5px; background:blue;color:white;border-radius:5px;left:300px;top:0px;}
+
+.alert-danger
+{
+  height:40px;
+  margin-bottom: 0px;
+  background-color: transparent;
+  color:purple;
+  font-weight : bold;
+}
+
+.load
+{
+ font-size:15px;
+font-weight : bold;
+color:#2c3e50;
+width:200px;
+height:40px;
+display:inline-block;
+background-color: lightgray;
+box-shadow:6px 6px 6px black;
+ 
+}
+
+em
+{
+  font-size:12px;
+}
+
+table th
+{
+background-color:#3B6AA0;
+color:#B7B7B7;
+}  
+
+
+table {
+background-color: #F7F0FD;
+color:blue;
+box-shadow:6px 6px 6px #B2B26B;
+}
+
+ 
+ body {
+
+/*background-image: url("herb.png");
+background-repeat: no-repeat;*/
+background-color: #F7F0FD;
+}
+ 
+ label 
+{
+  font-size:14px;
+  display:inline-block;
+  color:black;
+  }
+  
+ .well {
+   background-color: #EDEDED;
+   box-shadow:6px 6px 6px #B2B26B;
+   } 
+h3
+{
+  font-size:18px;
+  color:white;
+}
+
+h4{
+  
+  color:blue;
+  font-weight:bold;
+  font-size:15px;
+}
+
+p
+{
+font-size:10px;  
+}
+
+#datereal
+{
+  width:200px;
+}
+
+
+#dup:hover,#sup:hover,#raproj:hover
+{
+background-color: #2c3e50; 
+color:white;
+box-shadow:20px 20px 20px black 
+  
+}
+
+#recup:hover,#capsave:hover,#downloadReport:hover,.load:hover,#resave:hover,#downloadGraf:hover,
+#essai:hover,#donold:hover,#refairot:hover,#utilipat:hover,#automsa:hover,#autosec:hover
+{
+box-shadow:20px 20px 20px black  
+}
+
+
+#validall,#info_projet
+{
+font-size:16px;
+font-weight : bold;
+width:340px;
+height:40px;
+background-color: #3B6AA0;
+color:white;
+}
+
+#validall:hover,#info_projet:hover
+{
+background-color: green;
+color:white;
+}
+
+
+
+#refactu:hover,#donold:hover,#downloadReport:hover
+{
+background-color: blue; 
+box-shadow:20px 20px 20px black  
+} 
+
+#selproj
+{
+width:30px;
+background-color: yellow; 
+color:red;
+box-shadow:20px 20px 20px black; 
+margin-top:0;
+}
+
+
+#selproj:hover
+{
+background-color: blue; 
+color:white;
+box-shadow:20px 20px 20px black; 
+}
+
+
+
+#desproj
+{
+width:75%;
+display:inline-block;
+}
+
+#ferme
+{
+  font-size:15px;
+  width:200px; 
+  display:inline-block;
+  color:white;
+  background-color:#3B6AA0;
+  text-align:center;
+  }
+
+#tec
+{
+  font-size:15px;
+  width:200px; 
+
+}
+
+
+
+#TUMOE,#TUMOS,#TUMOB,
+#SAU,#LAB,#SH,#SHnorec,#SHens,#SHpatvl,#SHvlnorec,#PT,#SH,#PT,
+#VL,#UGB,#UGBES,#ENG,#UGBL,#VA,#UGB_UGBL,#UGBL_VL,
+#Surf_vt_prin,#Surf_vt_ete,#Surf_vt_oto,#Surf_ugba_prin,#Surf_ugba_ete,
+#PC_vt_print,#PC_vt_ete,#PC_vt_oto,
+#jours_pat,#CONVL,#jours_print,#jours_ete,#kgms_print,#kgms_ete,#jours_aut,#kgms_aut,#kgms_hiv,
+#Tms_ugbp,#Tms_ugbe,#PC_pertes,
+#HaFour1,#RdtFour1,#HaFour2,#RdtFour2,#HaFour3,#RdtFour3,#HaFour4,#RdtFour4,
+#Hader,#Rdtder,#recotherbe,
+#NH,#PH,#KH,#NCF,#PCF,#KCF,#NCV,#PCV,#KCV,
+#achafour1,#Tachafour1,#Pachafour1,#Tventefour1,#Pventefour1,
+#achafour2,#Tachafour2,#Pachafour2,#achafour3,#Tachafour3,#Pachafour3,
+#Tcon1,#Tconvl1,#Pcon1,#Tcon2,#Tconvl2,#Pcon2,#Tcon3,#Tconvl3,#Pcon3,
+#Tcon4,#Tconvl4,#Pcon4,#Tcon5,#Tconvl5,#Pcon5,#Tcon6,#Tconvl6,#Pcon6,
+#autoc,
+#viabl,#kgv_ugb,#priv,
+#DPB,#ParPac,#ICHN1,#ICHN2,#ParIchn,
+#PCv1,#RdtCv1,#PCv2,#RdtCv2,#PCv3,#RdtCv3,#PCv4,#RdtCv4,
+#T1ani,#T1vl,#T2ani,#T2vl,#T3ani,#T3vl,#T4ani,#T4vl,
+#PriCv1,#PriCv2,#PriCv3,#PriCv4
+
+  { 
+  font-size:12px;
+  width:100px;
+   display: inline-block;
+  overflow: hidden;
+  }
+
+#RDT_ens,#RDT_enr,#RDT_foinprec,#RDT_fointard,#RDT_2C,
+#PC_ens,#PC_enr,#PC_foinprec
+   { 
+  font-size:14px;
+  width:80px;
+  display:inline-block;
+  } 
+  
+
+
+
+#otrechani,#otrechasurf,#otreprod,#otraid,#RDT,#priA,#priB,#priC,
+#sal,#ferm,#msa,#carb,#entremat,#tdep,#entrebat,#assu,#impt,#eau,#edfgdf,#fraig,#div,#otrefix,
+#montinv,#duran,#taux,#minvl,#minugb,#cmv,#lit,#fel,#veto,#divel,#sem,#phyt,#surdiv,#otrechasurf,#oldannu,
+#ppautof,#secautof,#varisk,#varpri,#iterpri,#varvol,#itervol,#limA,#limB
+
+  { 
+  font-size:14px;
+  width:120px;
+  display:inline-block;
+  }
+
+#traite,#tralim,#curapa,#travo,#trapat,#troupeau,#trafou,#tracul,#tradiv,
+#TAdel,#TAsal,#TAben,#TSdel,#TSal,#TSben
+
+
+  { 
+  font-size:14px;
+  width:100px;
+  display:inline-block;
+  right:0px;
+  }
+
+#queltradiv
+
+  { 
+  font-size:14px;
+  width:150px;
+  display:inline-block;
+  right:0px;
+  }
+
+
+#PC1C
+{
+  color:red;
+  font-size:15px;
+  font-weight:bold;
+  background-color:yellow;
+  
+}
+
+
+ .btn-sup {
+  background: rgb(202, 60, 60); /* this is a maroon */
+  color:white;
+  float: right;
+  font-size:14px;
+  font-weight:bold;
+        }
+
+ .btn-dup {
+  background: green; 
+  color:white;
+  float: left;
+  font-size:14px;
+  font-weight:bold;
+        }
+
+  #raproj {
+  background: green; 
+  color:white;
+  font-size:14px;
+  font-weight:bold;
+        }
+ 
+ .btn-warning {
+ font-size:14px;
+  font-weight:bold;
+  float: right;
+
+        }        
+  
+  .btn-newref {
+  background: gray; /* this is a maroon */
+  color:white;
+  float: left;
+  font-size:14px;
+  font-weight:bold;
+        } 
+  
+     

@@ -1,0 +1,81 @@
+
+## Comparaisons des resultats des projets:
+
+### Les projets:
+
+```{r proj ,echo=FALSE,results='asis'}
+       w<-listedit()
+    projtab<-capelist()[[2]][w,]
+    aj<-"------"
+    tab<-cbind(projtab[,2],projtab[,3],aj)
+    colnames(tab)<-c("","","") 
+   
+    kable(tab,format="html")
+```
+
+
+\newpage
+
+### Exploitation:
+
+```{r ex ,echo=FALSE,results='asis'}
+     p<-capelist()
+     w<-listedit()
+    recapex<-calculex(p,w) 
+    if(length(recapex)>1){recapex<-recapex[rownames(recapex) %in% input$capel_ex,]}
+   kable(recapex, digits=1)
+
+```
+
+\newpage
+
+### Surfaces
+
+```{r surf ,echo=FALSE,results='asis'}
+library(xtable)
+     p<-capelist()
+     w<-listedit()
+    recasurf<-calcusurf(p,w)
+    if(length(recasurf)>1){recasurf<-recasurf[rownames(recasurf) %in% input$capel_surf,]}
+   
+  kable(recasurf, digits=1)
+ 
+```
+
+\pagebreak
+
+### Alimentation:
+
+```{r alim ,echo=FALSE,results='asis'}
+     p<-capelist()
+     w<-listedit()
+
+    recalim<-calcalim(p,w)
+    if(length(recalim)>1){recalim<-recalim[rownames(recalim) %in% input$capel_alim,]}
+
+   kable(recalim, digits=1)
+
+```
+
+
+\pagebreak
+
+### Resultats economiques
+
+```{r eco ,echo=FALSE,results='asis'}
+     p<-capelist()
+     w<-listedit()
+
+    recaprod<-calprod(p,w)
+    recachop<-calchop(p,w)
+    recafix<-calfix(p,w)
+    recapres<-calcures(p,w)
+    receco<-rbind(recaprod,recachop,recafix,recapres)
+    if(length(receco)>1){receco<-receco[rownames(receco) %in% input$capel_prod,]}
+      
+   kable(receco, digits=1)
+
+```
+
+
+-------------------------------------------------------------------------------------------------
